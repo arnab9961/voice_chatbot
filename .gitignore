@@ -1,0 +1,49 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Credentials and secrets
+.env
+credentials.json
+token.json
+*.key
+
+# Temporary files
+temp/
+*.temp
+*.tmp
+
+# Audio recordings and output
+temp/
+output.wav
+*.wav
+*.mp3
+
+# Streamlit specific
+.streamlit/secrets.toml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
